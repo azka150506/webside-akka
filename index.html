@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Akka | The Future is Now</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1f1f2e, #121212);
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      margin-top: 40px;
+      text-align: center;
+      animation: fadeInDown 1s ease forwards;
+      opacity: 0;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #4caf50;
+      letter-spacing: 4px;
+      margin-bottom: 8px;
+      text-shadow: 0 0 10px #4caf50aa;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #a5d6a7;
+      font-weight: 600;
+      letter-spacing: 1.2px;
+    }
+
+    main {
+      margin-top: 40px;
+      max-width: 900px;
+      width: 100%;
+      background: #242433;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 0 15px #4caf5077;
+      animation: fadeInUp 1s ease 0.5s forwards;
+      opacity: 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    section h2 {
+      color: #4caf50;
+      margin-bottom: 16px;
+      border-bottom: 2px solid #4caf50;
+      padding-bottom: 8px;
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li {
+      background: #1b1b2f;
+      margin-bottom: 15px;
+      padding: 12px 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #4caf5077;
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+
+    ul li:hover {
+      transform: translateX(10px);
+      background: #2e7d32;
+      color: #d0f0c0;
+    }
+
+    a {
+      color: #81c784;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #c8e6c9;
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+      letter-spacing: 1.2px;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      main {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Akka’s Portfolio</h1>
+    <p>The Future is Now 🚀</p>
+  </header>
+  <main>
+    <section id="about">
+      <h2>Tentang Aku</h2>
+      <p>
+        Halo! Aku Akka, AI enthusiast dan investor crypto yang fokus di XRP. Aku suka ngulik teknologi baru, coding, dan bikin proyek yang impact-nya nyata.
+      </p>
+    </section>
+    <section id="projects">
+      <h2>Proyek</h2>
+      <ul>
+        <li><strong>Chatbot AI</strong> — Bot cerdas yang bisa diajak ngobrol santai.</li>
+        <li><strong>Crypto Tracker</strong> — Aplikasi real-time untuk monitor harga crypto favorit.</li>
+        <li><strong>Portfolio Website</strong> — Website ini, bukti karya dan skill aku.</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Kontak</h2>
+      <p>Follow aku di sosmed:</p>
+      <ul>
+        <li><a href="https://www.facebook.com/troble.lel" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com/akka_fa" target="_blank">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@duta_herexx" target="_blank">TikTok</a></li>
+        <li>Email: <a href="mailto:akka@example.com">akka@example.com</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Akka. All rights reserved.
+  </footer>
+</body>
+</html>
